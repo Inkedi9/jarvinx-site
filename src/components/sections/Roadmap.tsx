@@ -5,7 +5,7 @@ import SectionHeader from "@/components/ui/SectionHeader";
 
 const milestones = [
     {
-        version: "V1.5",
+        version: "V1.3",
         status: "done",
         label: "Released",
         items: [
@@ -16,17 +16,17 @@ const milestones = [
         ],
     },
     {
-        version: "V1.6",
+        version: "V1.4",
         status: "active",
         label: "In progress",
         items: [
-            "Dashboard connected to V1.5 features",
+            "Dashboard connected to V1.3 features",
             "Live metrics UI",
             "Agent status overview",
         ],
     },
     {
-        version: "V1.7",
+        version: "V1.5",
         status: "planned",
         label: "Planned",
         items: [
@@ -36,7 +36,7 @@ const milestones = [
         ],
     },
     {
-        version: "V1.8",
+        version: "V1.6",
         status: "future",
         label: "Future",
         items: [
