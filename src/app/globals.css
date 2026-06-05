@@ -7,7 +7,7 @@
   --border: #222222;
   --text-primary: #ffffff;
   --text-secondary: #888888;
-  --accent: #22c55e;
+  --accent: #005BFF;
 }
 
 
@@ -26,4 +26,26 @@ code,
 pre,
 kbd {
   font-family: "JetBrains Mono", monospace;
+}
+
+/* Scrollbars — WebKit */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: #1a3a7a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Scrollbars — Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1a3a7a var(--bg-base);
 }

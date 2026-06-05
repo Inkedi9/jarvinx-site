@@ -62,7 +62,7 @@ export default function Features() {
                                 border: "1px solid var(--border)",
                             }}
                         >
-                            <Icon size={24} className="text-green-500" />
+                            <Icon size={24} style={{ color: "var(--accent)" }} />
                             <h3
                                 className="text-sm font-semibold"
                                 style={{ color: "var(--text-primary)" }}

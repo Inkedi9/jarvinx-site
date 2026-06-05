@@ -6,19 +6,19 @@ import { Shield, Zap, Brain } from "lucide-react";
 
 const cards = [
     {
-        icon: <Shield size={24} className="text-green-500" />,
+        icon: <Shield size={24} style={{ color: "var(--accent)" }} />,
         title: "Private by design",
         description:
             "Runs entirely on your machine. No telemetry, no cloud calls, no data leaving your homelab.",
     },
     {
-        icon: <Zap size={24} className="text-green-500" />,
+        icon: <Zap size={24} style={{ color: "var(--accent)" }} />,
         title: "One binary",
         description:
             "Single executable, one external dependency (gopsutil). Drop it in, run it — no complex setup.",
     },
     {
-        icon: <Brain size={24} className="text-green-500" />,
+        icon: <Brain size={24} style={{ color: "var(--accent)" }} />,
         title: "LLM-powered",
         description:
             "Connects to Ollama and reasons about your system state. Not just alerts — actual analysis.",

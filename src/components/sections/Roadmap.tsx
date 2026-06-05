@@ -53,8 +53,8 @@ const statusConfig: Record<
 > = {
     done: {
         icon: "✅",
-        accentColor: "#22c55e",
-        borderColor: "#22c55e",
+        accentColor: "#005BFF",
+        borderColor: "#005BFF",
     },
     active: {
         icon: "🔄",

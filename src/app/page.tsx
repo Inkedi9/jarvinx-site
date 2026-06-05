@@ -4,6 +4,8 @@ import Why from "@/components/sections/Why";
 import Features from "@/components/sections/Features";
 import Agents from "@/components/sections/Agents";
 import HowItWorks from "@/components/sections/HowItWorks";
+import TerminalDemo from "@/components/sections/TerminalDemo";
+import Metrics from "@/components/sections/Metrics";
 import Quickstart from "@/components/sections/Quickstart";
 import Roadmap from "@/components/sections/Roadmap";
 import Footer from "@/components/sections/Footer";
@@ -29,6 +31,10 @@ export default function Home() {
       <Agents />
       <Divider />
       <HowItWorks />
+      <Divider />
+      <TerminalDemo />
+      <Divider />
+      <Metrics />
       <Divider />
       <Quickstart />
       <Divider />
